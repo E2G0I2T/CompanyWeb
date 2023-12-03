@@ -1,0 +1,220 @@
+@charset "utf-8";
+@import "/css/reset.css";
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid red;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    justify-content: space-around;
+    z-index: 999;
+}
+
+header:hover {
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.menu a {
+    margin-left: 10vw;
+}
+
+.content {
+    width: 100%;
+    top: -10vh;
+    position: absolute;
+}
+
+.introduce {
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 1000px;
+    object-fit: fill;
+    filter: brightness(70%);
+}
+
+.swiper-slide h1 {
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+}
+
+.swiper-slide p {
+    font-size: 150%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+}
+
+.business h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 5vh;
+}
+
+.b1 {
+    display: flex;
+}
+
+.b1 .pic {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.b1 .pic img {
+    height: 80%;
+    z-index: 999;
+}
+
+.b1 .inner {
+    height: inherit;
+    margin-left: 5vw;
+    padding-left: 650px;
+    position: absolute;
+    background-color: darkblue;
+}
+
+.b1 .inner .txt {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.b1 .inner .txt p {
+    color: white;
+}
+
+.b1 .inner .txt .title {
+    margin-bottom: 5vh;
+}
+
+.b1 .inner .txt .title p {
+    font-size: 250%;
+}
+
+.b1 .inner .txt .txt1 {
+    line-height: 250%;
+}
+
+.item {
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+
+.item h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 5vh;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list li {
+    width: 400px;
+    height: 200px;
+}
+
+.list li a {
+    width: 100%;
+    position: relative;
+}
+
+.list li a img {
+    width: 100%;
+    height: 200px;
+}
+
+.list li a .txt{
+    font-size: 200%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-weight: 900;
+}
+
+.list li a:hover > .img{
+    filter: brightness(0.5);
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    border-top: 1px solid red;
+    background-color: darkblue;
+    position: absolute;
+    color: white;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.footer-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.footer-content div p {
+    font-size: x-large;
+}
+
+.footer-content div a {
+    color: white;
+}
+
+.footer-down {
+    color: white;
+    border-top: 1px solid aliceblue;
+    text-align: center;
+}
